@@ -1,0 +1,35 @@
+.todoList__item {
+  border: 2px solid;
+  width: fit-content;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.low {
+  border-color: green;
+}
+
+.medium {
+  border-color: yellow;
+}
+
+.high {
+  border-color: red;
+}
+
+.todoName__wrapper,
+.todoContent__wrapper {
+  border: none;
+  outline: none;
+
+  width: 200px;
+  height: 30px;
+  resize: none;
+}
+
+.todoContent__wrapper {
+  width: 200px;
+  height: 60px;
+  margin: 20px 0;
+}

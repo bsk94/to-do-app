@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <form class="addTodo__form">
+      <input
+        class="todoName__input"
+        type="text"
+        placeholder="type your todo..."
+        name="todoName"
+      />
+      <textarea
+        name="todoContent"
+        placeholder="type todo content..."
+        cols="30"
+        rows="10"
+      ></textarea>
+      <label for="todoPriority">choose todo priority: </label>
+      <select name="todoPriority" id="todoPriority">
+        <option value="low">low</option>
+        <option value="medium">medium</option>
+        <option value="high">high</option>
+      </select>
+      <button type="submit" class="addTodo__btn">add todo</button>
+    </form>
+
+    <ul class="todoList__wrapper"></ul>
+
+    <!-- <ul class="testList">
+      <li class="test__1">test1</li>
+      <li class="test__2">test2</li>
+    </ul> -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
